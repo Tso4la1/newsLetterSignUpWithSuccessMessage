@@ -61,18 +61,18 @@ export const SubscribeGrid = () => {
         <SectionWrapper primary>
             <TextWrapper fontSize="45px" mobFontSize="35px"
                 gsmFontSize="30px" fontWeight="700"
-                gsmMargin="-20px 0 5px 0" mobMargin="45px 0 5px 0" margin="60px 0 5px 0">
+                gsmMargin="-20px 0 21px 10px" mobMargin="45px 0 5px 0" margin="60px 0 5px 0">
                 <Text type="p" text="Stay Updated!" />
             </TextWrapper>
 
-            <TextWrapper padding="0 25px" margin="0 0 15px 3px" mobPadding="0 0" gsmFontSize="16px" gsmFontWeight="400" mobMargin="0 0 15px 0" fontSize="12.5px" fontWeight="700">
+            <TextWrapper padding="0 25px" gsmMargin="0 0 0 10px" margin="0 0 15px 3px" mobPadding="0 0" gsmFontSize="16px" gsmFontWeight="400" mobMargin="0 0 15px 0" fontSize="12.5px" fontWeight="700">
                 <Text type="p" text="Join 60,000+ product managers receiving monthly updates on:" />
             </TextWrapper>
 
             {list.map((items) =>
 
             (
-                <TextWrapper width="85%" fontSize="12.5px"
+                <TextWrapper gsmMargin="10px 0 0 10px" width="85%" fontSize="12.5px"
                     gsmFontSize="16px" margin="5px 0 0 5px" mobMargin="5px 0 0 0" fontWeight="700"
                     gsmFontWeight="400"
                     display="flex" key={items.id} >
@@ -84,7 +84,7 @@ export const SubscribeGrid = () => {
                 </TextWrapper>
             )
             )}
-            <TextWrapper width="85%" margin="30px 0 0 0" fontSize="11px" fontWeight="700" >
+            <TextWrapper gsmMargin="25px 0 0 10px" width="85%" margin="30px 0 0 0" fontSize="11px" fontWeight="700" >
                 <Form errors={errors} setErrors={setErrors} isInputText={inputText} setInputText={setInputText} />
             </TextWrapper>
 

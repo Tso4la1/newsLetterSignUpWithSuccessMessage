@@ -26,6 +26,7 @@ cursor:pointer;
 @media screen and ${devices.gsm}{
     height:850px;
     width:100%;
+    overflow-x: auto;
 }
 
 `
