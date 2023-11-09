@@ -1,6 +1,6 @@
 const sizes={
     medium:`768px`,
-    small:`375px`
+    small:`600px`
 };
 
 export const devices={
