@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1840px) {
   .mobile {
     display: none !important;
   }
@@ -119,6 +119,9 @@ body {
   }
 }
 @media screen and (max-width: 375px) {
+  .desktop {
+    display: none !important;
+  }
   .mobile {
     height: 50vh;
   }
