@@ -17,6 +17,9 @@ body {
   .desktop {
     display: flex !important;
   }
+  .formText {
+    margin-bottom: 10px;
+  }
   .email {
     margin-top: 6px;
     margin-bottom: 20px;
@@ -36,7 +39,7 @@ body {
     width: 107%;
     height: 7vh;
     height: 50px;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 700;
     background-color: hsl(234, 29%, 20%);
     border: none;

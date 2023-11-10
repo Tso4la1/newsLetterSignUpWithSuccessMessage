@@ -13,6 +13,7 @@ display:flex;
 justify-content:right;
 
 
+
 ${props => props.primary && css`
 color:hsl(235, 18%, 26%);
 width:45%;

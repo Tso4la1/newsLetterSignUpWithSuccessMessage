@@ -24,7 +24,7 @@ export const Form = ({ errors, setErrors, isInputText, setInputText }) => {
             }}>
 
                 <label htmlFor="email">
-                    <Text type="p" text="Email address" />
+                    <Text className="formText" type="p" text="Email address" />
                     {errors.email ? <p style={{ color: "red", float: "right", position: "relative", bottom: "13px" }}>{errors.email}</p> : ""}
                 </label>
                 <input style={field === "light" ? { color: "hsl(231, 7%, 60%)" } : { color: "hsl(235, 18%, 26%)", paddingLeft: "16px", fontSize: "11px", fontWeight: "700" }} value={field} onClick={() => setField(field === "light" ? light : email)} type="email" name="email" className="email" placeholder='email@company.com' onChange={handleChange} />

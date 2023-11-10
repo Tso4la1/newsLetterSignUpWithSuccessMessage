@@ -65,7 +65,7 @@ export const SubscribeGrid = () => {
                 <Text type="p" text="Stay Updated!" />
             </TextWrapper>
 
-            <TextWrapper padding="0 25px" gsmMargin="0 0 0 10px" margin="0 0 15px 3px" mobPadding="0 0" gsmFontSize="16px" gsmFontWeight="400" mobMargin="0 0 15px 0" fontSize="12.5px" fontWeight="700">
+            <TextWrapper padding="0 25px" gsmMargin="0 0 0 10px" margin="15px 0 15px 3px" mobPadding="0 0" gsmFontSize="16px" gsmFontWeight="400" mobMargin="0 0 15px 0" fontSize="12.5px" fontWeight="700">
                 <Text type="p" text="Join 60,000+ product managers receiving monthly updates on:" />
             </TextWrapper>
 
@@ -76,7 +76,7 @@ export const SubscribeGrid = () => {
                     gsmFontSize="16px" margin="5px 0 0 5px" mobMargin="5px 0 0 0" fontWeight="700"
                     gsmFontWeight="400"
                     display="flex" key={items.id} >
-                    <TextWrapper gsmMargin="0 15px 0 0" margin="0 24px 0 0">
+                    <TextWrapper gsmMargin="0 15px 0 0" margin="0 20px 0 0">
                         <Icons name="icon-list" />
                     </TextWrapper>
                     <Text type="p" text={items.title} />
